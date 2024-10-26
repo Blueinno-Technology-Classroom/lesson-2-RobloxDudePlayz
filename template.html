@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Intro-to-CSS</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body style="margin: 0">
     <!-- ! Banner -->
@@ -13,31 +14,38 @@
       width="100%" />
 
     <!-- ! Navigation Bar -->
-    <div>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Skills</a>
-      <a href="#">Education</a>
-      <a href="#">Projects</a>
+    <div class="custom">
+      <div class="links">
+        <a class="custom-link" href="#">Home</a>
+        <a class="custom-link" href="#">About</a>
+        <a class="custom-link" href="#">Skills</a>
+        <a class="custom-link" href="#">Education</a>
+        <a class="custom-link" href="#">Projects</a>
+      </div>
 
       <!-- TODO: replace with links -->
-      <img src="./imgs/ins.png" alt="instagram" width="36" height="36" />
-      <img src="./imgs/facebook.png" alt="facebook" width="36" height="36" />
-      <img src="./imgs/whatsapp.png" alt="whatsapp" width="36" height="36" />
-      <img src="./imgs/youtube.png" alt="youtube" width="36" height="36" />
+      <div class="imgs">
+        <img src="./imgs/ins.png" alt="instagram" width="36" height="36" />
+        <img src="./imgs/facebook.png" alt="facebook" width="36" height="36" />
+        <img src="./imgs/whatsapp.png" alt="whatsapp" width="36" height="36" />
+        <img src="./imgs/youtube.png" alt="youtube" width="36" height="36" />
+      </div>
     </div>
 
     <!-- ! Content -->
-    <div>
-      <h3>Hi, I'm {Name Here}</h3>
-      <img
-        src="https://i.pinimg.com/originals/0c/64/9a/0c649a17ec1e5f5ca340248b4ef4e4be.gif"
-        width="200" />
+    <div class="content-container">
+      <h1>HEY YOU, PLAY BLOX FRUITS</h1>
+      <div class="greeting-row">
+        <h3>Hi, I'm, wait, I dont know who i am actually :(</h3>
+        <img
+          src="https://i.pinimg.com/originals/0c/64/9a/0c649a17ec1e5f5ca340248b4ef4e4be.gif"
+          width="200" />
+      </div>
 
       <h3>About Me</h3>
       <p>
-        I'm a student who loves playing around with cool tech stuff. I've tried
-        out
+        I'm a student who loves playing roblox. I've played blox fruits,
+        bedwars, and dusty roads
         <u><b style="background-color: coral">Scratch</b></u>
         ,
         <u><b>Micro:bit</b></u>

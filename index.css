@@ -1,0 +1,23 @@
+.content-container {
+  background-color: black;
+  padding: 8px;
+  color: white;
+}
+
+.custom {
+  background-color: black;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.greeting-row {
+  display: flex;
+}
+
+.img {
+  display: flex;
+}
+.links {
+  display: flex;
+}
